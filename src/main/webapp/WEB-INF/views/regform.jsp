@@ -8,12 +8,12 @@
 </head>
 <body>
 
-	<form action="regform">
-		First Name: <input type="text" name="fName"> 
-		Last Name: <input type="text" name="lName"> 
-		EMail: <input type="text" name="email">
-		Phone: <input type="text" name="phone">
-		Password: <input type="text" name="password">
+	<form action="/register">
+		First Name: <input type="text" name="fName"> <br><br>
+		Last Name: <input type="text" name="lName"> <br><br>
+		EMail: <input type="text" name="email"> <br><br>
+		Phone: <input type="text" name="phone"> <br><br>
+		Password: <input type="text" name="password"> <br><br>
 		<input type="submit" value="Submit">
 
 	</form>

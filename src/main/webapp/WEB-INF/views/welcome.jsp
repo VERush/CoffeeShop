@@ -8,7 +8,7 @@
 </head>
 <body>
 
-${coffeeText}
+<h1>Welcome ${user.getFirstName()}</h1>
 
 </body>
 </html>

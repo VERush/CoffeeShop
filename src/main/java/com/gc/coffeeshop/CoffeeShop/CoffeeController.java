@@ -18,7 +18,7 @@ public class CoffeeController {
 	
 	@RequestMapping("/regform")
 	public ModelAndView testing() {
-		return new ModelAndView("regform", "coffeeText", "Welcome to GC COFFEE!");
+		return new ModelAndView("regform");
 	}
 	
 	@RequestMapping("/register")
@@ -31,6 +31,6 @@ public class CoffeeController {
 		registeredUser.setPhone(phone);
 		registeredUser.setPassword(password);
 		
-		return new ModelAndView("regform", "user", registeredUser);
+		return new ModelAndView("welcome", "user", registeredUser);
 	}
 }
